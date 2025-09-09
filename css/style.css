@@ -1,0 +1,17 @@
+:root {
+    --main-color: #F13737;
+    --sub-text-color: #6f6f6f;
+    --title-size: 6.4rem;
+    --text-size: 1.6rem;
+    /* 중간제목 */
+    --list-title:2.4rem;
+    /* 모서리 둥글기 */
+    --large-radius: 10rem;
+    --middle-radius: 4rem;
+}
+
+.inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: rgb(188, 198, 228);
+}
