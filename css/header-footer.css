@@ -1,6 +1,11 @@
 /* header */
 header{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    top: 0;
+    background-color: rgba(255,255,255,0.9);
 }
 header .inner{
     display: flex;
@@ -87,7 +92,40 @@ header .inner{
 }
 
 /* footer */
-footer{}
+footer{
+    padding-top: 7rem;
+}
+footer .inner{
+    position: relative;
+}
+.top-btn{
+    position: absolute;
+    right:50px;
+    top:-90px;
+}
+.top-btn>a{
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem;
+    background: rgba(255,38,38,1);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.top-btn>a::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon-arrow-45deg.svg);
+    background-size: 100%;
+    transform: rotate(-45deg);
+}
 footer .inner{
     max-width: 1700px;
     background: #636363;

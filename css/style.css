@@ -13,5 +13,6 @@
 .inner {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: rgb(188, 198, 228);
+    padding: 0 16px;
+    /* background-color: rgba(188, 198, 228,0.4); */
 }
